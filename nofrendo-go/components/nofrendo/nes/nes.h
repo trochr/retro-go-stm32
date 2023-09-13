@@ -77,6 +77,7 @@ typedef struct nes_s
    /* Misc */
    region_t region;
    short overscan;
+   bool ntr;
 
    /* Timing stuff */
    short refresh_rate;
